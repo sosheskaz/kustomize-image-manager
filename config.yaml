@@ -1,0 +1,33 @@
+---
+managed_images:
+  adguard:
+    repo: adguard/adguardhome
+    matcher: '^v?(\d+\.){2}\d+$'
+  mariadb10:
+    repo: mariadb
+    matcher: '^v?10\.(\d+\.)\d+$'
+  mariadb11:
+    repo: mariadb
+    matcher: '^v?11\.(\d+\.)\d+$'
+  redis:
+    repo: redis
+    matcher: '^v?(\d+\.){2}\d+$'
+  gitea:
+    repo: gitea/gitea
+    matcher: '^v?(\d+\.){2}\d+$'
+  lsjellyfin:
+    repo: ghcr.io/linuxserver/jellyfin
+    matcher: '^v?[0-9\.\-]+-ls\d+$'
+  lsnextcloud:
+    repo: ghcr.io/linuxserver/nextcloud
+    matcher: '^v?[0-9\.\-]+-ls\d+$'
+  photoprism:
+    repo: photoprism/photoprism
+    matcher: '^\d+$'
+    sorter: normal
+  gitea_act_runner:
+    repo: gitea/act_runner
+    matcher: '^v?(\d+\.)+((\d{2,})|([1-9]))-dind-rootless$'
+  tailscale:
+    repo: tailscale/tailscale
+    matcher: '^v?(\d+\.)+\d+$'

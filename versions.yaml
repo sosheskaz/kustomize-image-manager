@@ -1,0 +1,31 @@
+images:
+  adguard:
+    newName: adguard/adguardhome
+    newTag: v0.107.52
+  mariadb10:
+    newName: mariadb
+    newTag: 10.11.8
+  mariadb11:
+    newName: mariadb
+    newTag: 11.4.2
+  redis:
+    newName: redis
+    newTag: 7.2.5
+  gitea:
+    newName: gitea/gitea
+    newTag: 1.22.1
+  lsjellyfin:
+    newName: ghcr.io/linuxserver/jellyfin
+    newTag: 10.8.13-1-ls247
+  lsnextcloud:
+    newName: ghcr.io/linuxserver/nextcloud
+    newTag: 29.0.3-ls330
+  photoprism:
+    newName: photoprism/photoprism
+    newTag: "240711"
+  gitea_act_runner:
+    newName: gitea/act_runner
+    newTag: 0.2.10-dind-rootless
+  tailscale:
+    newName: tailscale/tailscale
+    newTag: v1.68.1
