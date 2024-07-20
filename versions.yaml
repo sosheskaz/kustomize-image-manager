@@ -29,3 +29,6 @@ images:
   tailscale:
     newName: tailscale/tailscale
     newTag: v1.68.1
+  gitea/act_runner:
+    newName: gitea/act_runner
+    newTag: 0.2.10-dind-rootless

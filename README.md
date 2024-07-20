@@ -1,0 +1,1 @@
+# Kustomize Image Manager Component

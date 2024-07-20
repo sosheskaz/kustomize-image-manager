@@ -25,7 +25,7 @@ managed_images:
     repo: photoprism/photoprism
     matcher: '^\d+$'
     sorter: normal
-  gitea_act_runner:
+  gitea/act_runner:
     repo: gitea/act_runner
     matcher: '^v?(\d+\.)+((\d{2,})|([1-9]))-dind-rootless$'
   tailscale:
