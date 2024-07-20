@@ -34,3 +34,6 @@ images:
   - name: gitea/act_runner
     newName: gitea/act_runner
     newTag: 0.2.10-dind-rootless
+  - name: restic
+    newName: restic/restic
+    newTag: 0.16.5

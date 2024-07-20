@@ -28,6 +28,9 @@ managed_images:
   gitea/act_runner:
     repo: gitea/act_runner
     matcher: '^v?(\d+\.)+((\d{2,})|([1-9]))-dind-rootless$'
+  restic:
+    repo: restic/restic
+    matcher: '^v?(\d+\.)+\d+$'
   tailscale:
     repo: tailscale/tailscale
     matcher: '^v?(\d+\.)+\d+$'
