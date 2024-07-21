@@ -17,7 +17,7 @@ managed_images:
     matcher: '^v?(\d+\.){2}\d+$'
   lsjellyfin:
     repo: ghcr.io/linuxserver/jellyfin
-    matcher: '^v?[0-9\.\-]+-ls\d+$'
+    matcher: '^v?[0-9\.\-]+ubu\d+-ls\d+$'
   lsnextcloud:
     repo: ghcr.io/linuxserver/nextcloud
     matcher: '^v?[0-9\.\-]+-ls\d+$'
