@@ -18,10 +18,10 @@ images:
     newTag: 1.22.1
   - name: lsjellyfin
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.7ubu2204-ls22
+    newTag: 10.9.8ubu2204-ls23
   - name: lsnextcloud
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 29.0.3-ls330
+    newTag: 29.0.4-ls332
   - name: photoprism
     newName: photoprism/photoprism
     newTag: "240711"
