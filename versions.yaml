@@ -35,3 +35,18 @@ images:
   restic:
     newName: restic/restic
     newTag: 0.16.5
+  immich:
+    newName: ghcr.io/immich-app/immich-server
+    newTag: v1.109.2
+  immich-server:
+    newName: ghcr.io/immich-app/immich-server
+    newTag: v1.109.2
+  ghcr.io/immich-app/immich-server:
+    newName: ghcr.io/immich-app/immich-server
+    newTag: v1.109.2
+  immich-machine-learning:
+    newName: ghcr.io/immich-app/immich-machine-learning
+    newTag: v1.109.2
+  ghcr.io/immich-app/immich-machine-learning:
+    newName: ghcr.io/immich-app/immich-machine-learning
+    newTag: v1.109.2

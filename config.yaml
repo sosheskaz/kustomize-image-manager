@@ -34,3 +34,11 @@ managed_images:
   tailscale:
     repo: tailscale/tailscale
     matcher: '^v?(\d+\.)+\d+$'
+  immich-server: &immich-server
+    repo: ghcr.io/immich-app/immich-server
+    matcher: '^v?(\d+\.)+\d+$'
+  ghcr.io/immich-app/immich-server: *immich-server
+  immich-machine-learning: &immich-machine-learning
+    repo: ghcr.io/immich-app/immich-machine-learning
+    matcher: '^v?(\d+\.)+\d+$'
+  ghcr.io/immich-app/immich-machine-learning: *immich-machine-learning
