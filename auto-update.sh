@@ -4,7 +4,7 @@ set -e
 
 cd "$(dirname "$0")"
 
-managed_images=($(yq e '.managed_images | keys | .[]' -r config.yaml))
+readarray -t managed_images < <(yq e '.managed_images | keys | .[]' -r config.yaml)
 
 touch versions.yaml
 

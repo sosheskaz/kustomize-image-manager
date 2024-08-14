@@ -2,8 +2,6 @@
 
 set -e
 
-managed_images=($(yq e '.managed_images | keys | .[]' -r config.yaml))
-
 touch kustomization.yaml
 
 yq e -Pi '.apiVersion="kustomize.config.k8s.io/v1alpha1"' kustomization.yaml
