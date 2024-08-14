@@ -1,0 +1,26 @@
+---
+name: CI
+'on': [push]
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: |
+          set -e
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ca-certificates golang
+          CGO_ENABLED=0 go install github.com/google/go-containerregistry/cmd/crane@latest
+          sudo mv "$(go env GOPATH)/bin/crane" /usr/local/bin/
+      - run: ./auto-update.sh
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto-update images"
+          title: "Auto-update images"
+          body: "Auto-update images"
+          branch: "auto-update-images"
+          base: "main"
+          labels: "auto-update"
