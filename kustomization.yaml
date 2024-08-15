@@ -7,10 +7,10 @@ images:
     newTag: v0.107.52
   - name: mariadb10
     newName: mariadb
-    newTag: 10.11.8
+    newTag: 10.11.9
   - name: mariadb11
     newName: mariadb
-    newTag: 11.4.2
+    newTag: 11.4.3
   - name: redis
     newName: redis
     newTag: 7.2.5
@@ -19,10 +19,10 @@ images:
     newTag: 1.22.1
   - name: lsjellyfin
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.9ubu2204-ls25
+    newTag: 10.9.9ubu2404-ls27
   - name: lsnextcloud
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 29.0.4-ls333
+    newTag: 29.0.4-ls334
   - name: photoprism
     newName: photoprism/photoprism
     newTag: "240711"
@@ -43,13 +43,13 @@ images:
     newTag: v1.109.2
   - name: immich-server
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.109.2
+    newTag: v1.112.1
   - name: ghcr.io/immich-app/immich-server
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.109.2
+    newTag: v1.112.1
   - name: immich-machine-learning
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.109.2
+    newTag: v1.112.1
   - name: ghcr.io/immich-app/immich-machine-learning
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.109.2
+    newTag: v1.112.1
