@@ -8,7 +8,7 @@ images:
     newTag: 10.11.9
   mariadb11:
     newName: mariadb
-    newTag: 11.4.3
+    newTag: 11.5.2
   redis:
     newName: redis
     newTag: 7.2.5
@@ -51,3 +51,7 @@ images:
   ghcr.io/immich-app/immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
     newTag: v1.112.1
+  rancher/system-upgrade-controller:
+    newName: rancher/system-upgrade-controller
+    skip_point: false
+    newTag: v0.13.4

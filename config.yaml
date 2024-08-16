@@ -43,3 +43,6 @@ managed_images:
     repo: ghcr.io/immich-app/immich-machine-learning
     matcher: '^v?(\d+\.)+\d+$'
   ghcr.io/immich-app/immich-machine-learning: *immich-machine-learning
+  rancher/system-upgrade-controller:
+    repo: rancher/system-upgrade-controller
+    matcher: '^v?(\d+\.)+\d+$'
