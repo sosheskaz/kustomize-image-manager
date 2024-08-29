@@ -17,10 +17,10 @@ images:
     newTag: 1.22.1
   lsjellyfin:
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.9ubu2404-ls27
+    newTag: 10.9.10ubu2404-ls29
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 29.0.4-ls334
+    newTag: 29.0.5-ls336
   photoprism:
     newName: photoprism/photoprism
     newTag: "240711"
@@ -29,7 +29,7 @@ images:
     newTag: 0.2.10-dind-rootless
   tailscale:
     newName: tailscale/tailscale
-    newTag: v1.70.0
+    newTag: v1.72.1
   gitea/act_runner:
     newName: gitea/act_runner
     newTag: 0.2.10-dind-rootless
@@ -53,5 +53,4 @@ images:
     newTag: v1.112.1
   rancher/system-upgrade-controller:
     newName: rancher/system-upgrade-controller
-    skip_point: false
     newTag: v0.13.4
