@@ -14,13 +14,13 @@ images:
     newTag: 7.2.5
   gitea:
     newName: gitea/gitea
-    newTag: 1.22.1
+    newTag: 1.22.2
   lsjellyfin:
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.10ubu2404-ls29
+    newTag: 10.9.10ubu2404-ls30
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 29.0.5-ls336
+    newTag: 29.0.6-ls337
   photoprism:
     newName: photoprism/photoprism
     newTag: "240711"
@@ -35,22 +35,22 @@ images:
     newTag: 0.2.10-dind-rootless
   restic:
     newName: restic/restic
-    newTag: 0.16.5
+    newTag: 0.17.1
   immich:
     newName: ghcr.io/immich-app/immich-server
     newTag: v1.109.2
   immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.112.1
+    newTag: v1.113.1
   ghcr.io/immich-app/immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.112.1
+    newTag: v1.113.1
   immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.112.1
+    newTag: v1.113.1
   ghcr.io/immich-app/immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.112.1
+    newTag: v1.113.1
   rancher/system-upgrade-controller:
     newName: rancher/system-upgrade-controller
     newTag: v0.13.4
