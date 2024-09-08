@@ -17,7 +17,7 @@ images:
     newTag: 1.22.2
   lsjellyfin:
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.10ubu2404-ls30
+    newTag: 10.9.11ubu2404-ls31
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
     newTag: 29.0.6-ls337
