@@ -56,3 +56,6 @@ images:
   - name: rancher/system-upgrade-controller
     newName: rancher/system-upgrade-controller
     newTag: v0.13.4
+  - name: restic/restic
+    newName: restic/restic
+    newTag: 0.17.1
