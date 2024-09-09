@@ -32,6 +32,7 @@ managed_images:
     repo: restic/restic
     matcher: '^v?(\d+\.)+\d+$'
   restic/restic: *restic
+  docker.io/restic/restic: *restic
   tailscale:
     repo: tailscale/tailscale
     matcher: '^v?(\d+\.)+\d+$'

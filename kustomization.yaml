@@ -59,3 +59,6 @@ images:
   - name: restic/restic
     newName: restic/restic
     newTag: 0.17.1
+  - name: docker.io/restic/restic
+    newName: restic/restic
+    newTag: 0.17.1
