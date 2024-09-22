@@ -1,0 +1,10 @@
+---
+services:
+  auto-update:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /work
+    volumes:
+      - .:/work
+    command: ./auto-update.sh

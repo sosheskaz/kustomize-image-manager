@@ -30,7 +30,8 @@ normal)
 esac
 
 log "listing repo '$repo'"
-readarray -t all_versions < <(crane ls "$repo" | grep -E "${matcher}")
+declare -a all_versions
+mapfile -t all_versions <<< "$(crane ls "$repo" | grep -E "${matcher}")"
 
 max_ndots=0
 for v in "${all_versions[@]}"

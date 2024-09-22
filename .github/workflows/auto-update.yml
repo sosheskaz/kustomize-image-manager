@@ -1,0 +1,30 @@
+---
+name: Update Apps
+
+on:  # yamllint disable-line rule:truthy
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-apps:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: pre-build
+        run: docker compose build
+
+      - name: build the runner
+        run: docker compose run --rm auto-update
+
+      - name: open PR
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update apps
+          title: Update apps
+          body: |
+            Update apps
+          branch: auto-update
+          base: main
