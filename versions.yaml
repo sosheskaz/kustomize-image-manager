@@ -17,10 +17,10 @@ images:
     newTag: 1.22.2
   lsjellyfin:
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.11ubu2404-ls32
+    newTag: 10.9.11ubu2404-ls33
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 29.0.7-ls341
+    newTag: 29.0.7-ls342
   photoprism:
     newName: photoprism/photoprism
     newTag: "240915"
@@ -32,7 +32,7 @@ images:
     newTag: v1.74.1
   gitea/act_runner:
     newName: gitea/act_runner
-    newTag: 0.2.10-dind-rootless
+    newTag: 0.2.11-dind-rootless
   restic:
     newName: restic/restic
     newTag: 0.17.1
