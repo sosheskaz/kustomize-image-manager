@@ -22,7 +22,7 @@ images:
     newTag: 10.9.11ubu2404-ls33
   - name: lsnextcloud
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 29.0.7-ls342
+    newTag: 30.0.0-ls343
   - name: photoprism
     newName: photoprism/photoprism
     newTag: "240915"
