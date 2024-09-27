@@ -43,16 +43,16 @@ images:
     newTag: v1.109.2
   - name: immich-server
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.116.1
+    newTag: v1.116.2
   - name: ghcr.io/immich-app/immich-server
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.116.1
+    newTag: v1.116.2
   - name: immich-machine-learning
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.116.1
+    newTag: v1.116.2
   - name: ghcr.io/immich-app/immich-machine-learning
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.116.1
+    newTag: v1.116.2
   - name: rancher/system-upgrade-controller
     newName: rancher/system-upgrade-controller
     newTag: v0.13.4
