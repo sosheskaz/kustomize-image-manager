@@ -4,7 +4,7 @@ kind: Component
 images:
   - name: adguard
     newName: adguard/adguardhome
-    newTag: v0.107.52
+    newTag: v0.107.53
   - name: mariadb10
     newName: mariadb
     newTag: 10.11.9
@@ -19,10 +19,10 @@ images:
     newTag: 1.22.2
   - name: lsjellyfin
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.11ubu2404-ls33
+    newTag: 10.9.11ubu2404-ls34
   - name: lsnextcloud
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 30.0.0-ls343
+    newTag: 30.0.0-ls344
   - name: photoprism
     newName: photoprism/photoprism
     newTag: "240915"
@@ -55,7 +55,7 @@ images:
     newTag: v1.116.2
   - name: rancher/system-upgrade-controller
     newName: rancher/system-upgrade-controller
-    newTag: v0.13.4
+    newTag: v0.14.1
   - name: restic/restic
     newName: restic/restic
     newTag: 0.17.1
