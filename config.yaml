@@ -3,6 +3,7 @@ managed_images:
   adguard:
     repo: adguard/adguardhome
     matcher: '^v?(\d+\.){2}\d+$'
+    skip_point: false
   mariadb10:
     repo: mariadb
     matcher: '^v?10\.(\d+\.)\d+$'
@@ -18,6 +19,7 @@ managed_images:
   lsjellyfin:
     repo: ghcr.io/linuxserver/jellyfin
     matcher: '^v?[0-9\.\-]+ubu\d+-ls\d+$'
+    skip_point: false
   lsnextcloud:
     repo: ghcr.io/linuxserver/nextcloud
     matcher: '^v?[0-9\.\-]+-ls\d+$'
@@ -25,6 +27,7 @@ managed_images:
     repo: photoprism/photoprism
     matcher: '^\d+$'
     sorter: normal
+    skip_point: false
   gitea/act_runner:
     repo: gitea/act_runner
     matcher: '^v?(\d+\.)+((\d{2,})|([1-9]))-dind-rootless$'
@@ -40,11 +43,14 @@ managed_images:
   immich-server: &immich-server
     repo: ghcr.io/immich-app/immich-server
     matcher: '^v?(\d+\.)+\d+$'
+    skip_point: false
   ghcr.io/immich-app/immich-server: *immich-server
   immich-machine-learning: &immich-machine-learning
     repo: ghcr.io/immich-app/immich-machine-learning
     matcher: '^v?(\d+\.)+\d+$'
+    skip_point: false
   ghcr.io/immich-app/immich-machine-learning: *immich-machine-learning
   rancher/system-upgrade-controller:
     repo: rancher/system-upgrade-controller
     matcher: '^v?(\d+\.)+\d+$'
+    skip_point: false
