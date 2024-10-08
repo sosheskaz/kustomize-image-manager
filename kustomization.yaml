@@ -13,16 +13,16 @@ images:
     newTag: 11.5.2
   - name: redis
     newName: redis
-    newTag: 7.2.5
+    newTag: 7.4.1
   - name: gitea
     newName: gitea/gitea
     newTag: 1.22.2
   - name: lsjellyfin
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.11ubu2404-ls34
+    newTag: 10.9.11ubu2404-ls35
   - name: lsnextcloud
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 30.0.0-ls344
+    newTag: 30.0.0-ls345
   - name: photoprism
     newName: photoprism/photoprism
     newTag: "240915"
