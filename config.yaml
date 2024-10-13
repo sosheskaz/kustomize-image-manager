@@ -54,3 +54,7 @@ managed_images:
     repo: rancher/system-upgrade-controller
     matcher: '^v?(\d+\.)+\d+$'
     skip_point: false
+  ghcr.io/sosheskaz/healthchecksio-cli:
+    repo: ghcr.io/sosheskaz/healthchecksio-cli
+    matcher: '^v?(\d+\.)+\d+$'
+    skip_point: false

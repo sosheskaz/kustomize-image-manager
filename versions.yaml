@@ -60,3 +60,6 @@ images:
   docker.io/restic/restic:
     newName: restic/restic
     newTag: 0.17.1
+  ghcr.io/sosheskaz/healthchecksio-cli:
+    newName: ghcr.io/sosheskaz/healthchecksio-cli
+    newTag: 1.1.0
