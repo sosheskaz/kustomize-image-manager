@@ -17,7 +17,7 @@ images:
     newTag: 1.22.3
   lsjellyfin:
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.9.11ubu2404-ls35
+    newTag: 10.9.11ubu2404-ls37
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
     newTag: 30.0.0-ls345
@@ -41,16 +41,16 @@ images:
     newTag: v1.109.2
   immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.117.0
+    newTag: v1.118.1
   ghcr.io/immich-app/immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.117.0
+    newTag: v1.118.1
   immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.117.0
+    newTag: v1.118.1
   ghcr.io/immich-app/immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.117.0
+    newTag: v1.118.1
   rancher/system-upgrade-controller:
     newName: rancher/system-upgrade-controller
     newTag: v0.14.1
