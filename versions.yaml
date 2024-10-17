@@ -20,7 +20,7 @@ images:
     newTag: 10.9.11ubu2404-ls37
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 30.0.0-ls345
+    newTag: 30.0.1-ls346
   photoprism:
     newName: photoprism/photoprism
     newTag: "240915"
@@ -29,7 +29,7 @@ images:
     newTag: 0.2.10-dind-rootless
   tailscale:
     newName: tailscale/tailscale
-    newTag: v1.74.1
+    newTag: v1.76.1
   gitea/act_runner:
     newName: gitea/act_runner
     newTag: 0.2.11-dind-rootless
@@ -41,16 +41,16 @@ images:
     newTag: v1.109.2
   immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.118.1
+    newTag: v1.118.2
   ghcr.io/immich-app/immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.118.1
+    newTag: v1.118.2
   immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.118.1
+    newTag: v1.118.2
   ghcr.io/immich-app/immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.118.1
+    newTag: v1.118.2
   rancher/system-upgrade-controller:
     newName: rancher/system-upgrade-controller
     newTag: v0.14.1
