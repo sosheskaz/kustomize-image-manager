@@ -22,7 +22,7 @@ images:
     newTag: 10.9.11ubu2404-ls37
   - name: lsnextcloud
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 30.0.1-ls346
+    newTag: 30.0.1-ls347
   - name: photoprism
     newName: photoprism/photoprism
     newTag: "240915"
@@ -55,7 +55,7 @@ images:
     newTag: v1.118.2
   - name: rancher/system-upgrade-controller
     newName: rancher/system-upgrade-controller
-    newTag: v0.14.1
+    newTag: v0.14.2
   - name: restic/restic
     newName: restic/restic
     newTag: 0.17.1
