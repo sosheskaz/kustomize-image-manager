@@ -35,7 +35,7 @@ images:
     newTag: 0.2.11-dind-rootless
   restic:
     newName: restic/restic
-    newTag: 0.17.1
+    newTag: 0.17.2
   immich:
     newName: ghcr.io/immich-app/immich-server
     newTag: v1.109.2
@@ -56,10 +56,10 @@ images:
     newTag: v0.14.2
   restic/restic:
     newName: restic/restic
-    newTag: 0.17.1
+    newTag: 0.17.2
   docker.io/restic/restic:
     newName: restic/restic
-    newTag: 0.17.1
+    newTag: 0.17.2
   ghcr.io/sosheskaz/healthchecksio-cli:
     newName: ghcr.io/sosheskaz/healthchecksio-cli
     newTag: 1.1.0
