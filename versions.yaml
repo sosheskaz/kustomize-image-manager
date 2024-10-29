@@ -20,7 +20,7 @@ images:
     newTag: 10.10.0ubu2404-ls38
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 30.0.1-ls347
+    newTag: 30.0.1-ls348
   photoprism:
     newName: photoprism/photoprism
     newTag: "240915"
@@ -41,16 +41,16 @@ images:
     newTag: v1.109.2
   immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.118.2
+    newTag: v1.119.1
   ghcr.io/immich-app/immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.118.2
+    newTag: v1.119.1
   immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.118.2
+    newTag: v1.119.1
   ghcr.io/immich-app/immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.118.2
+    newTag: v1.119.1
   rancher/system-upgrade-controller:
     newName: rancher/system-upgrade-controller
     newTag: v0.14.2
