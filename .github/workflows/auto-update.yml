@@ -3,7 +3,7 @@ name: Update Apps
 
 on:  # yamllint disable-line rule:truthy
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
 
 jobs:
