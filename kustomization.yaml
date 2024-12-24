@@ -4,25 +4,25 @@ kind: Component
 images:
   - name: adguard
     newName: adguard/adguardhome
-    newTag: v0.107.53
+    newTag: v0.107.55
   - name: mariadb10
     newName: mariadb
-    newTag: 10.11.9
+    newTag: 10.11.10
   - name: mariadb11
     newName: mariadb
-    newTag: 11.5.2
+    newTag: 11.6.2
   - name: redis
     newName: redis
     newTag: 7.4.1
   - name: gitea
     newName: gitea/gitea
-    newTag: 1.22.3
+    newTag: 1.22.6
   - name: lsjellyfin
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.10.0ubu2404-ls38
+    newTag: 10.10.3ubu2404-ls46
   - name: lsnextcloud
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 30.0.1-ls348
+    newTag: 30.0.4-ls358
   - name: photoprism
     newName: photoprism/photoprism
     newTag: "240915"
@@ -31,37 +31,37 @@ images:
     newTag: 0.2.10-dind-rootless
   - name: tailscale
     newName: tailscale/tailscale
-    newTag: v1.76.1
+    newTag: v1.78.3
   - name: gitea/act_runner
     newName: gitea/act_runner
     newTag: 0.2.11-dind-rootless
   - name: restic
     newName: restic/restic
-    newTag: 0.17.2
+    newTag: 0.17.3
   - name: immich
     newName: ghcr.io/immich-app/immich-server
     newTag: v1.109.2
   - name: immich-server
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.119.1
+    newTag: v1.123.0
   - name: ghcr.io/immich-app/immich-server
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.119.1
+    newTag: v1.123.0
   - name: immich-machine-learning
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.119.1
+    newTag: v1.123.0
   - name: ghcr.io/immich-app/immich-machine-learning
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.119.1
+    newTag: v1.123.0
   - name: rancher/system-upgrade-controller
     newName: rancher/system-upgrade-controller
     newTag: v0.14.2
   - name: restic/restic
     newName: restic/restic
-    newTag: 0.17.2
+    newTag: 0.17.3
   - name: docker.io/restic/restic
     newName: restic/restic
-    newTag: 0.17.2
+    newTag: 0.17.3
   - name: ghcr.io/sosheskaz/healthchecksio-cli
     newName: ghcr.io/sosheskaz/healthchecksio-cli
     newTag: 1.1.0
