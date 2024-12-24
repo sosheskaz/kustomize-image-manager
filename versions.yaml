@@ -2,25 +2,25 @@
 images:
   adguard:
     newName: adguard/adguardhome
-    newTag: v0.107.53
+    newTag: v0.107.55
   mariadb10:
     newName: mariadb
-    newTag: 10.11.9
+    newTag: 10.11.10
   mariadb11:
     newName: mariadb
-    newTag: 11.5.2
+    newTag: 11.6.2
   redis:
     newName: redis
     newTag: 7.4.1
   gitea:
     newName: gitea/gitea
-    newTag: 1.22.3
+    newTag: 1.22.6
   lsjellyfin:
     newName: ghcr.io/linuxserver/jellyfin
-    newTag: 10.10.0ubu2404-ls38
+    newTag: 10.10.3ubu2404-ls46
   lsnextcloud:
     newName: ghcr.io/linuxserver/nextcloud
-    newTag: 30.0.1-ls348
+    newTag: 30.0.4-ls358
   photoprism:
     newName: photoprism/photoprism
     newTag: "240915"
@@ -29,37 +29,37 @@ images:
     newTag: 0.2.10-dind-rootless
   tailscale:
     newName: tailscale/tailscale
-    newTag: v1.76.1
+    newTag: v1.78.3
   gitea/act_runner:
     newName: gitea/act_runner
     newTag: 0.2.11-dind-rootless
   restic:
     newName: restic/restic
-    newTag: 0.17.2
+    newTag: 0.17.3
   immich:
     newName: ghcr.io/immich-app/immich-server
     newTag: v1.109.2
   immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.119.1
+    newTag: v1.123.0
   ghcr.io/immich-app/immich-server:
     newName: ghcr.io/immich-app/immich-server
-    newTag: v1.119.1
+    newTag: v1.123.0
   immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.119.1
+    newTag: v1.123.0
   ghcr.io/immich-app/immich-machine-learning:
     newName: ghcr.io/immich-app/immich-machine-learning
-    newTag: v1.119.1
+    newTag: v1.123.0
   rancher/system-upgrade-controller:
     newName: rancher/system-upgrade-controller
     newTag: v0.14.2
   restic/restic:
     newName: restic/restic
-    newTag: 0.17.2
+    newTag: 0.17.3
   docker.io/restic/restic:
     newName: restic/restic
-    newTag: 0.17.2
+    newTag: 0.17.3
   ghcr.io/sosheskaz/healthchecksio-cli:
     newName: ghcr.io/sosheskaz/healthchecksio-cli
     newTag: 1.1.0
